@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es" class="h-100">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros - Método Monte Carlo</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body class="d-flex flex-column h-100">
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-primary mb-5" data-bs-theme="dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Método Monte Carlo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+                    aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarColor01">
+                    <ul class="navbar-nav me-auto ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="nosotros.html">Nosotros</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="flex-shrink-0">
+        <div class="container">
+            <h1 class="text-center">Nosotros</h1>
+            <p>Este programa web utiliza el método de <span class="text-primary">Monte Carlo</span> para aproximar el valor de integrales
+                definidas. La interfaz de usuario, estructurada con <span class="text-info">HTML</span>, permite al
+                usuario seleccionar una integral predefinida y especificar el número de simulaciones a realizar. El
+                diseño visual y la responsividad se manejan mediante el framework <span class="text-info">CSS Bootstrap</span>. La lógica principal se
+                implementa en <span class="text-info">JavaScript</span> al hacer clic en el botón de cálculo, un script toma los parámetros de
+                entrada, genera un número determinado de puntos aleatorios dentro del rango de la integral, evalúa la
+                función en cada uno de esos puntos y utiliza estos valores para calcular una aproximación de la
+                integral. El script también compara este resultado con el valor matemático real de la integral
+                (previamente definido) y calcula el porcentaje de error. Finalmente, los resultados numéricos (valor
+                real, aproximación y error) se muestran en la página, y se utiliza el elemento <span class="text-info">HTML Canvas</span>, manipulado
+                por JavaScript, para dibujar una representación gráfica de la función y los puntos de simulación,
+                visualizando así el proceso del método de Monte Carlo.</p>
+            <ul>
+                <li>Andrés Moreno (30465183)</li>
+                <li>Roberto Stuch (30643465)</li>
+                <li>Jussef Tawil (24733242)</li>
+            </ul>
+
+        </div>
+    </main>
+
+    <footer class="py-3 my-4 mt-auto">
+        <div class="container">
+            <p class="text-center">© 2025 SAM Company, Inc</p>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
