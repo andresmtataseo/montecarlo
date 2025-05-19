@@ -1,0 +1,10 @@
+.canvas-wrapper {
+    max-width: 100%; 
+    overflow-x: auto;
+    margin: 0 auto; 
+}
+
+.canvas-wrapper canvas {
+    display: block; 
+    max-width: none;
+}
